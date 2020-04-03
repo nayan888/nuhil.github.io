@@ -1,17 +1,28 @@
 const BLACKLISTED_KEY_CODES = [ 38 ];
 const COMMANDS = {
   help:
-    'Supported commands: <span class="code">about</span>, <span class="code">experience</span>, <span class="code">education</span>, <span class="code">skills</span>, <span class="code">contact</span>',
+    'Supported commands: <span class="code">about</span>, <span class="code">experience</span>, <span class="code">education</span>, <span class="code">skills</span>, <span class="code">contact</span>, <span class="code">resume</span>',
   about:
     "Hello 👋<br>I'm Nuhil, Ph.D. candidate and polyglot programmer with prior graduations in computer science, and former software engineer with more than 5 years of experience who believes in artificial intelligence and likes the cloud, desktop, and mobile platforms for developing software and machine learning based AI tools, following the micro-service architecture to solve real-life problems.",
   skills:
-    '<span class="code">Languages:</span> Python, HTML, CSS, JavaScript<br><span class="code">Technologies:</span> Git, SQL<br><span class="code">Frameworks:</span> React.js, Vue.js, Django',
+    '<span class="success">Programming - </span>Python, Javascript, Java, C/C++, SQL, R, PHP, HTML, CSS, Shell, Matlab, Swift<br>' +
+    '<span class="success">Data Science and Engineering - </span> Web Scrapping, Data Wrangling, Statistical Analysis, Data Visualization, EDA (Exploratory Data Analysis), ETL (Extract Transform Load), SQLite, MySQL, SQL Server, PostgreSQL, MongoDB, SQLAlchemy, Spark, PySpark, Hadoop, Jupyter Notebook, Zeppelin, Microsoft Excel, Tableau, Power BI<br>' + 
+    '<span class="success">Machine Learning - </span> Linear Regression, Logistic Regression, Support Vector Machines, Decision Trees, Random Forest, Naive Bayes, K-NN (K-Nearest Neighbors), K-means, Principal Component Analysis, OpenCV, Numpy, pandas, matplotlib, scikit-learn, MLlib<br>' +
+    '<span class="success">Deep Learning - </span> CNN (Convolutional Neural Network), LSTM (Long Short Term Memory Network), GAN (Generative Adversarial Network), NLP (Natural Language Processing), Anomaly Detection, Time Series Forecasting, Recommender Systems, Tensorflow, Keras<br>' +
+    '<span class="success">Software Development - </span> Django, Flask, PyQt, Tkinter, RESTful Service, Laravel, AngularJS, Node.js, Express, Docker, Vagrant, Nginx, Gunicorn, git, Test Driven Development, Continuous Integration/Deployment, Agile, AWS (Amazon Web Services), GCP (Google Cloud Platform)<br>' +
+    '<span class="success">Security Expertise - </span> Information Assurance, Security Goal, Threat Modeling, Vulnerability Analysis, ICS Kill-chain, OWASP (Open Web Application Security Project), Wireshark',
   education:
-    "PH.D. CANDIDATE | Computing | Boise State University | Jan 2018 – Present | Boise, ID, USA<br>MASTER OF SCIENCE | Computer Science | Lamar University | Aug 2017 | Beaumont, TX, USA<br>BACHELOR OF SCIENCE | Computer Science and Engineering | RUET | Bangladesh",
-  resume: "<a href='./resume.pdf' class='success link'>resume.pdf</a>",
-  experience: "No Experience😥",
+    "<span class='success'>Ph.D. Candidate - </span>Computing | Boise State University | Jan 2018 – Present | Boise, ID, USA<br>" + 
+    "<span class='success'>Master of Science - </span>Computer Science | Lamar University | Aug 2017 | Beaumont, TX, USA<br>" +
+    "<span class='success'>Bachelor of Science and Engineering - </span>Computer Science and Engineering | RUET | Bangladesh",
+  resume: 
+    "Please, follow <a href='http://bit.ly/akm_nuhil_mehdy' target='_blank' class='success link'>this link</a>",
+  experience: 
+  '<span class="success">Graduate Research Assistant - </span> Boise State University (Jan 2018 - Present | Boise, ID, USA)<br>' +
+  '<span class="success">BackEnd Developer (Remote) - </span>Mobbazaar Inc. (Dec 2014 – Aug 2015 | San Jose, CA, USA)<br>' +
+  '<span class="success">Software Engineer - </span>Wneeds Ltd. (Feb 2011 – Dec 2014 | Dhaka, BD)',
   contact:
-    "You can contact me on any of following links:<br><a href='https://www.facebook.com/jatin.rao.51/' class='success link'>Facebook</a> ,<a href='https://www.instagram.com/jatin.codes/' class='success link'>Instagram</a>, <a href='https://www.twitter.com/jatinn_r/' class='success link'>Twitter</a>"
+    "You can send me an email by clicking <a href='mailto:nuhil@nuhil.net' class='success link'>here</a>"
 };
 let userInput, terminalOutput;
 
