@@ -46,8 +46,7 @@ const execute = function executeCommand(input) {
     terminalOutput.scrollTop = terminalOutput.scrollHeight;    
   } else {
       if (!COMMANDS.hasOwnProperty(input)) {
-      output += `<div class="terminal-line">no such command: ${input}</div>`;
-      console.log("Oops! no such command");
+      output += `<div class="terminal-line">zsh: command not found: ${input}</div>`;
       } else {
       output += COMMANDS[input];
       }
