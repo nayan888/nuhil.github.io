@@ -1,7 +1,7 @@
 const BLACKLISTED_KEY_CODES = [ 38 ];
 const COMMANDS = {
   help:
-    'Supported commands: <span class="code">about</span>, <span class="code">experience</span>, <span class="code">education</span>, <span class="code">skills</span>, <span class="code">contact</span>, <span class="code">resume</span>',
+    'Supported commands: <span class="code">about</span>, <span class="code">experience</span>, <span class="code">education</span>, <span class="code">skills</span>, <span class="code">contact</span>, <span class="code">resume</span>, <span class="code">clear</span>',
   about:
     "Hello 👋<br>I'm Nuhil, Ph.D. candidate and polyglot programmer with prior graduations in computer science, and former software engineer with more than 5 years of experience who believes in artificial intelligence and likes the cloud, desktop, and mobile platforms for developing software and machine learning based AI tools, following the micro-service architecture to solve real-life problems.",
   skills:
