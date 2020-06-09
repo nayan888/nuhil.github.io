@@ -18,6 +18,7 @@ const COMMANDS = {
   resume: 
     "Please, follow <a href='http://bit.ly/akm_nuhil_mehdy' target='_blank' class='success link'>this link</a>",
   experience: 
+  '<span class="success">Data Science Intern - </span> Micron Technology, Inc. (May 2020 - Present | Boise, ID, USA)<br>' +
   '<span class="success">Graduate Research Assistant - </span> Boise State University (Jan 2018 - Present | Boise, ID, USA)<br>' +
   '<span class="success">BackEnd Developer (Remote) - </span>Mobbazaar Inc. (Dec 2014 – Aug 2015 | San Jose, CA, USA)<br>' +
   '<span class="success">Software Engineer - </span>Wneeds Ltd. (Feb 2011 – Dec 2014 | Dhaka, BD)',
